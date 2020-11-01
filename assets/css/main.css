@@ -1,0 +1,249 @@
+body {
+    background-image: url('../img/bg.jpg');
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: azure;
+    background-color: cornflowerblue;
+    font-size: 25px;
+}
+
+.best {
+    font-size: 20px;
+    color: azure;
+    text-align: center;
+    background-color: darkblue;
+}
+
+.btnBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    width: 80px;
+    height: 30px;  
+    background-color: aquamarine;
+    margin: 10px;
+    position: relative;
+    border-radius: 10px;
+    outline-style: none;
+}
+
+table {
+    margin: 20px auto;
+}
+
+.cell {
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    font-size: 15px;
+    border-style: solid;
+    border-width: 2px;  
+ 
+}
+
+.cellClose {
+    background-color: coral;
+    border-color: rebeccapurple;
+}
+
+.cellClose:hover {
+    cursor: pointer;
+    background-color: lightblue;
+}
+
+.cellOpen {
+    background-color: cyan;
+    border-color: purple ;
+    pointer-events: none;
+}
+
+.cellManMine {
+    background-color: red;
+    border-color: black ;
+}
+
+.cellHint{
+    background-color: yellow;
+}
+
+.safeCell{
+    background-color: green;
+}
+
+
+.spanClose {
+    display: none;
+}
+
+.spanOpen {
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    color: darkgreen;
+    font-size: 20px;
+}
+
+.spanMarked{
+    font-size: 17px;
+}
+
+.spanWarning {
+    display: inline-block;
+    background-color: yellow;
+    pointer-events: none;
+    width:24px;
+    margin: 0 auto;
+  
+}
+
+.spanBoom {
+    display: inline-block;
+    background-color: red;
+    pointer-events: none;
+    width:24px;
+    margin: 0 auto;
+  
+}
+
+.mine-icon{
+    max-width:20px;     
+    max-width: 20px; 
+    margin: 0 auto;
+}
+
+.gameOver {
+    pointer-events: none;
+}
+
+.smile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.imgContainer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    display: none;
+}
+
+.timer {
+    height: 100px;
+    width: 170px;
+    border-width: 3px;
+    border-radius: 30px;
+    background-color: black;    
+    border-style: solid;
+    border-color: cornflowerblue;
+    color: lime;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+
+.hintsBox{
+    height: 100px;
+    width: 170px;
+    border-width: 3px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: cornflowerblue;    
+    background-color: white;   
+}
+
+.hintsBox h1{
+    text-align: center;
+    font-size: 35px;
+    color: darkblue;
+    background-color: transparent;
+    margin: 2px;
+}
+
+.hint{
+    margin-top:25px;
+    margin-right: 10px;
+    float: right;
+}
+
+.hintImg{
+    width: 40px;
+    height: 40px;
+    margin-left:10px;
+}
+
+.hintImg:hover{
+    cursor: pointer;
+}
+
+.lifeBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 160px;
+    padding:20px;
+    color:darkred;
+    font-size: 30px;
+    /* margin: 0px 20px 0px 20px; */
+}
+
+.lifeImg {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.addBtns{
+    right:900px;
+    bottom:20px;
+    position : absolute;
+}
+
+.safe{
+    width: 200px;
+    height: 100px;
+    bottom :130px;
+    left:220px;
+    background-color: darkblue;
+    font-size: 20px;
+    border-radius: 60%;
+    color: lightgreen;
+    text-align: center;
+}
+
+.undo{
+    width: 200px;
+    height: 100px;
+    background-color: peru;
+    font-size: 40px;
+    border-radius: 60%;
+    color: skyblue;
+    text-align: center;
+}
+
+.modeManual{
+    background-color: red;
+    border: solid 2px black;
+    font-size: 20px;
+    color: azure;
+}
+
+.modeAuto{
+    background-color: green;
+    border: solid 2px black;
+    font-size: 20px;
+    color: azure;
+}

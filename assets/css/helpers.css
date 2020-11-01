@@ -1,0 +1,80 @@
+/* HELPERS */
+
+/* display helpers */
+
+.hover-btn:hover{
+    background-color: #ffa366;
+    box-shadow: 10px 5px 5px grey;
+    font-weight: 800;
+}
+
+.display {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.z-index {
+    z-index: 3;
+}
+
+/* Position-Helpers */
+
+.absolute {
+    position: absolute;
+}
+
+.fixed {
+    position: fixed;
+    right: 0;
+}
+
+/* action helpers */
+
+.no-click {
+    pointer-events: none;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+/* flex helpers */
+
+.flex-row {
+    display: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-start{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.nice-input{
+    padding: 7px;
+    border-radius: 7px;
+    border: 1px solid #3b5998;
+}
