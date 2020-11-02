@@ -1,3 +1,4 @@
 # Minesweeper-React
 
-The Known minsweerep game, with a few changes, written with React framework.
+The Known minesweerep game, with a new design and a few additions like hints and lifes.
+Written with React framework.
