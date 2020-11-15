@@ -6,3 +6,4 @@ Written with React framework.
 Github pages link - https://dimavais.github.io/Minesweeper-React/
 
 Screenshot - 
+![Minesweeper](/Minesweeper.jpg?raw=true "Minesweeper")
